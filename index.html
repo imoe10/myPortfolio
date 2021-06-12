@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+	<title>Home</title>
+</head>
+<body  onload = "startTimer()">
+	<header class="nav center">
+		<p class="logo">RashwanJr</p>
+		<input type="checkbox" name="" class="checkBtn">
+		<ol class="center">
+			<a href="HomePage.html"><li>About</li></a>
+			<a href="./projectsPage.html"><li>Projects</li></a>
+			<a href="#"><li>Contact</li></a>
+		</ol>	
+	</header>
+	<section  class="main">
+		<div class="box">
+			<h1>Mohamed Rashwan</h1>
+			<p>Web Developer | UI/UX</p>
+			<button class="btn">Hire Me</button>
+		</div>
+		<img src="ME.png" alt="">
+	</section>
+	<section class="about">
+		<div class="about-box">
+			<h1>About <mark>Me</mark></h1>
+			<img src="loupe.png" alt=""></img>
+			<p>Hello World, I'm Mohamed a Passionate Software Engineer with more than 4 years experience with living Southeast Asia. I obtained my Bachelor's degree of Computer Science (Hons) at INTI International University Malaysia in 2021. 
+			I'm currently focusing on the field of frontend Web Development and JavaScript programming. My current goal is to obtain
+			either remote or on-site employment as a Web Application Developer to kickstart my career in Software Engineering.</p>
+		</div>
+	</section>
+	<div class="wrapper">
+	<div class="divider div-transparent div-dot"></div>
+	</div>
+	<!--
+	<section class="skills">
+		<div class="skill-box">
+			 <h1>Skills</h1>
+			 <div style="float: right;" class="button-container-1">
+      			<span class="mas">HTML</span>
+    			<button id='work' type="button" name="Hover">HTML</button>
+  			</div>
+  			 <div style="float: right;" class="button-container-1">
+      			<span class="mas">CSS</span>
+    			<button id='work' type="button" name="Hover">CSS</button>
+  			</div>
+  			 <div style="float: right;" class="button-container-1">
+      			<span class="mas">JS</span>
+    			<button id='work' type="button" name="Hover">JS</button>
+  			</div>
+  			<div style="float: right;" class="button-container-1">
+      			<span class="mas">PHP</span>
+    			<button id='work' type="button" name="Hover">PHP</button>
+  			</div>
+		</div>
+	</section>
+	-->
+	<section class="work">
+		<div class="work-box">
+			<img name="img" id="img" style="float: right;" src="java.png" alt="">
+			<img style="float: right;" src="php.png" alt="">
+			<img name="img2" id="img2" style="float: right;" src="physics.png" alt="">
+			<img style="float: right;" src="js-format.png" alt="">
+			<img name="img3" id="img3" style="float: right;" src="css.png" alt="">
+			<img style="float: right;" src="html-5.png" alt="">	
+		</div>
+	</section>
+	<section class="contact">
+		<div class="first-box">
+			<p>I build awesome web applications</p>
+			<h1>Explore my projects,</h1>
+			<h1 style="margin-top:0.1em">UI designs, full of inspiration.</h1>
+			<button class="myfirstbtn">Explore</button>	
+		</div>
+		<div class="second-box">
+			<p>Get in touch</p>
+			<h1>Email me,</h1>
+			<h1 style="margin-top:0.1em">Call me, anytime!</h1>
+			<button class="mysecondbtn">Hire Me</button>	
+		</div>
+	</section>
+	<section class="timeline">
+  <ul>
+    <h2>Education & Experience</h2>
+    <li>
+      <div>
+        <time>2017 - 2021 | INTI International University</time> Bachelor's Degree in Computer Science (Hons) (Coventry University, UK) Specialization in Software Engineering.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Jun 2020 - Sep 2020 | HR's Mgmt Sdn Bhd</time> Internship as Web Developer and IT support 
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Sep 2020 - May 2021 | Premium Entrepreneur Consultant</time> Working as Web Developer <a href="https://www.premium.edu.my">Premium.edu.my</a>
+      </div>
+    </li>
+
+    <li>
+      <div>
+        <time>May 2021 - Ongoing | SARAH Export</time> Overseas Sales Manager for SARAH Export Bangkok, Thailand
+    </li>
+
+  </ul>
+</section>
+	<div class="wrapper">
+	<div class="divider div-transparent"></div>
+	</div>
+	<section class="footer">
+		<div class="footer-box">
+			<p>Designed By RashwanJr</p>
+			<img src="linkedin.png" alt="">
+			<img style="margin-left: 1.5em;" src="instagram.png" alt="">
+			<img style="margin-left: 1.5em;" src="gmail-logo.png" alt="">
+		</div>
+	</section>
+</body>
+</html>
+
+ <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x]; 
+              document.getElementById("img2").src = images2[x];
+              document.getElementById("img3").src = images3[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 5000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "hashtag.png";
+          images[1] = "java.png";
+
+          var images2 = [], x = -1;
+          images2[0] = "wordpress.png";
+          images2[1] = "physics.png";
+
+          var images3 = [], x = -1;
+          images3[0] = "sql-server.png";
+          images3[1] = "css.png";
+
+          // Main variables
+  var $aboutTitle = $('.about .content h2');
+  var $developmentWrapper = $('.development-wrapper');
+  var developmentIsVisible = false;
+
+
+/* ####### HERO SECTION ####### */
+
+$('.header .content .title').delay(500).animate({
+  'opacity':'1',
+  'top': '50%'
+},1000);
+
+
+$(window).scroll( function(){
+  
+  var bottom_of_window = $(window).scrollTop() + $(window).height();
+  
+  /* ##### ABOUT MYSELF SECTION #### */
+  if( bottom_of_window > ($aboutTitle.offset().top + $aboutTitle.outerHeight())){
+    $('.about .content h2').addClass('aboutTitleVisible');
+  } 
+/* ##### EXPERIENCE SECTION #### */
+  
+    // Check the location of each element hidden */
+    $('.experience .content .hidden').each( function(i){
+      
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+      
+        /* If the object is completely visible in the window, fadeIn it */
+        if( bottom_of_window > bottom_of_object ){
+          
+          $(this).animate({
+            'opacity':'1',
+            'margin-left': '0'
+          },600);
+        }
+    });
+
+/*###### SKILLS SECTION ######*/
+  
+  var middle_of_developmentWrapper = $developmentWrapper.offset().top + $developmentWrapper.outerHeight()/2;
+  
+  if((bottom_of_window > middle_of_developmentWrapper)&& (developmentIsVisible == false)){
+  
+    $('.skills-bar-container li').each( function(){
+
+      var $barContainer = $(this).find('.bar-container');
+      var dataPercent = parseInt($barContainer.data('percent'));
+      var elem = $(this).find('.progressbar');
+      var percent = $(this).find('.percent');
+      var width = 0;
+
+      var id = setInterval(frame, 15);
+
+      function frame() {
+        if (width >= dataPercent) {
+            clearInterval(id);
+        } else {
+          width++;
+          elem.css("width", width+"%");
+          percent.html(width+" %");
+        }
+      }
+    });
+    developmentIsVisible = true;
+  }
+}); // -- End window scroll --
+
+
+// TimeLine
+
+(function() {
+
+  'use strict';
+
+  // define variables
+  var items = document.querySelectorAll(".timeline li");
+
+  // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+      }
+    }
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+
+})();
+
+
+// on page load...
+    moveProgressBar();
+    // on browser resize...
+    $(window).resize(function() {
+        moveProgressBar();
+    });
+
+
+      </script>
+
