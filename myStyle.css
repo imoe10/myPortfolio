@@ -636,3 +636,31 @@ time {
   letter-spacing: 1.6px;
   font-weight: 300;
 }
+
+/** CSS For Different Platforms **/
+
+@media (max-width: 1250px){
+	.main img{ width: 25em; right: 0; }
+}
+
+@media (max-width: 1000px){
+	body{font-size: 14px;}
+	.main img{width: 35em; top: 80px;}
+	.main {align-items: flex-end;}
+}
+
+@media (max-width:  900px){
+	.main img{width: 30em;}
+}
+
+@media (max-width: 600px){
+	.main img{width: 22em;}
+}
+
+@media (max-width: 400px){
+	body{font-size: 10px;}
+
+	.main{
+		height: 450px;
+	}
+}
