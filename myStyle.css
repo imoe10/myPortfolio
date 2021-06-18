@@ -700,4 +700,47 @@ time {
 	float: left;
 	margin-left: 5.5em;
 }
+	/** Conatct Section **/
+.contact{
+	width: 100%;
+	height: 25vh;
+}
+
+.first-box{
+	width: 50%;
+	height: 25vh;	
+}
+
+.first-box h1{
+	font-size: 3em;
+}
+
+.first-box p{
+	font-size: 1.5em;
+}
+
+.second-box{
+	width: 50%;
+	height: 25vh;
+}
+
+.second-box h1{
+	font-size: 3em;
+}
+
+.second-box p{
+	font-size: 1.5em;
+}
+
+.myfirstbtn{
+	font-size: 1.5em;
+	height: 3em;
+
+}
+
+
+.mysecondbtn{
+	font-size: 1.5em;
+	height: 3em;
+}
 }
