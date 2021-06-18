@@ -664,3 +664,31 @@ time {
 		height: 450px;
 	}
 }
+
+@media (min-width: 480px){
+	.about-box h1{
+	font-size: 1.5em;
+	margin-top: 0.5em;
+	margin-left: 11em;
+	color: var(--main-font-color);
+}
+
+.about-box p{
+	font-size: 0.5em;
+	color: var(--main-font-color);
+	margin-top: 1em;
+	margin-left: 10em;
+	width: 600px;
+	text-align: justify;
+	float: right;
+}
+
+.about img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-left: 3em;
+	margin-top: -6em;
+	
+}
+}
