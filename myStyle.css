@@ -1879,7 +1879,7 @@ time {
 	.main img{width: 22em;}
 }
 
-@media (max-width: 400px){
+@media (min-width: 400px){
 	body{font-size: 10px;}
 
 	.main{
