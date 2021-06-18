@@ -713,6 +713,12 @@ time {
 
 .first-box h1{
 	font-size: 2.5em;
+	text-align: justify;
+	font-weight: normal;
+	margin-top: 0.8em;
+	margin-left: 3.4em;
+	width: 75%;
+	word-spacing: -3px;
 }
 
 .first-box p{
