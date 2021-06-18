@@ -666,7 +666,7 @@ time {
 }
 
 /* Laptop */
-@media (min-width: 961px) {
+@media (min-width: 1025px) {
 
 	.center{
 	display: flex;
