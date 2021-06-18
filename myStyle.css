@@ -737,12 +737,13 @@ time {
 
 .second-box p{
 	font-size: 1.5em;
+	margin-left: 4em;
 }
 
 .myfirstbtn{
 	font-size: 1.5em;
 	height: 3em;
-	margin-left: 3em;
+	margin-left: 4em;
 
 }
 
