@@ -761,15 +761,16 @@ time {
 
 .footer-box p{
 	font-size: 1.5em;
-	float: left;
+	float: right;
 	margin-left: 6em;
-	margin-top: 1em;
+	
 }
 
 .footer-box img{
 	width: 20px;
 	height: 20px;
 	margin-left: 55em;
+	float: right;
 
 }
 }
