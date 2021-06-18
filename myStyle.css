@@ -674,21 +674,21 @@ time {
 	.about-box h1{
 	font-size: 3.5em;
 	margin-left: 7em;
+	margin-top: 0.7em;
 }
 
 .about-box p{
-	font-size: 2.5em;
+	font-size: 1.5em;
 	margin-top: 1em;
-	margin-left: 10em;
-	width: 600px;
-	text-align: justify;
+	margin-left: 7em;
+	width: 200px;
 	float: right;
 }
 
 .about img{
 	float: left;
-	width: 80px;
-	height: 80px;
+	width: 150px;
+	height: 150px;
 	margin-left: 3em;
 	margin-top: -6em;
 	
