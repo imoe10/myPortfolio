@@ -761,7 +761,7 @@ time {
 
 .footer-box p{
 	font-size: 1.5em;
-	float: right;
+	float: left;
 	margin-left: 6em;
 	
 }
@@ -770,7 +770,8 @@ time {
 	width: 20px;
 	height: 20px;
 	margin-left: 55em;
-	float: right;
+	margin-top: -1em;
+	position: absolute;
 
 }
 }
