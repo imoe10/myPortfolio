@@ -36,7 +36,7 @@ body{
 	}
 }
 
-@media (max-width: 400px){
+@media (min-width: 480px){
 	.about-box h1{
 	font-size: 1.5em;
 	margin-top: 0.5em;
