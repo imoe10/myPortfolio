@@ -673,15 +673,15 @@ time {
 	.about-box h1{
 	font-size: 5em;
 	margin-top: 1em;
-	margin-left: 2em;
+	margin-left: 1.8em;
 }
 
 .about-box p{
-	font-size: 2.5em;
+	font-size: 2.2em;
 	margin-top: 1em;
-	margin-left: 3.5em;
+	margin-left: 3.8em;
 	width: 750px;
-	tex-align: justify;
+	tex-align: left;
 	
 }
 
