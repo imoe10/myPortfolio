@@ -667,13 +667,13 @@ time {
 	.about{
 	width: 100%;
 	height: 40vh;	
-		background: #fff;
+		
 }
 
 	.about-box h1{
-	font-size: 10em;
+	font-size: 5em;
 	margin-top: 0.5em;
-	margin-left: 7em;
+	margin-left: 2em;
 }
 
 .about-box p{
@@ -685,6 +685,6 @@ time {
 }
 
 .about img{
-	width: 100px;
+	display: none;
 }
 }
