@@ -657,7 +657,7 @@ time {
 	.main img{width: 22em;}
 }
 
-@media only screen and (max-device-width: 480px){
+@media (max-device-width: 480px){
 	body{font-size: 10px;}
 
 	.main{
