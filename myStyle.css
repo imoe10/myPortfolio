@@ -679,7 +679,7 @@ time {
 .about-box p{
 	font-size: 2em;
 	margin-top: 1em;
-	margin-left: 4.2em;
+	margin-left: 4.3em;
 	width: 800px;
 	text-align: justify;
 }
@@ -687,4 +687,10 @@ time {
 .about img{
 	display: none;
 }
+	
+.work{
+	width: 100%;
+	height: 15vh;
+}
+
 }
