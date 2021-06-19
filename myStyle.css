@@ -682,7 +682,7 @@ time {
 	margin-left: 3.8em;
 	width: 800px;
 	tex-align: left;
-	word-wrap: normal;
+	word-spacing: -3px;
 	
 }
 
