@@ -657,7 +657,7 @@ time {
 	.main img{width: 22em;}
 }
 
-@media (max-width: 480px){
+@media (min-width: 480px){
 	body{font-size: 10px;}
 
 	.main{
