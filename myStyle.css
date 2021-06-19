@@ -657,7 +657,7 @@ time {
 	.main img{width: 22em;}
 }
 
-@media (max-width: 320px){
+@media only screen and (max-device-width: 480px){
 	body{font-size: 10px;}
 
 	.main{
@@ -665,10 +665,10 @@ time {
 	}
 	
 	.about-box h1{
-	font-size: 1.5em;
+	font-size: 4.5em;
 	margin-top: 0.5em;
 	margin-left: 11em;
-	color: var(--main-font-color);
+	color: #cdcdcd;
 }
 
 .about-box p{
