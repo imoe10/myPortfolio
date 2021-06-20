@@ -664,6 +664,17 @@ time {
 		height: 450px;
 	}
 	
+	
+.box p{
+	font-size: 1.8em;
+}
+
+.box .btn{
+	font-size: 1.8em;
+	height: 3em;
+	
+}
+	
 	.about{
 	width: 100%;
 	height: 45vh;	
@@ -741,6 +752,25 @@ time {
 	font-size: 1.8em;
 	height: 3em;
 	margin-left: 5.5em;
+}
+	
+/** Footer Section **/
+.footer{
+	width: 100%;
+	height: 2vh;
+}
+
+.footer-box p{
+	font-size: 2em;
+	float: left;
+	margin-left: 6.7em;
+}
+
+.footer-box img{
+	width: 20px;
+	height: 20px;
+	margin-left: 50em;
+	margin-bottom: 2em;
 }
 
 
