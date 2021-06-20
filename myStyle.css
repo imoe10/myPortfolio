@@ -662,6 +662,10 @@ time {
 	font-size:10px;	
 	overflow-x: hidden;
 	}
+	
+	.nav .logo{
+	font-size: 16px;
+}
 
 	.main{
 		height: 450px;
