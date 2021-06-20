@@ -688,7 +688,7 @@ time {
 }
 
 .about-box p{
-	font-size: 2em;
+	font-size: 1.8em;
 	margin-top: 1em;
 	margin-left: 4.3em;
 	width: 800px;
@@ -764,13 +764,15 @@ time {
 	font-size: 2em;
 	float: left;
 	margin-left: 6.7em;
+	margin-top: 1.5em;
+	
 }
 
 .footer-box img{
 	width: 20px;
 	height: 20px;
-	margin-left: 50em;
-	margin-bottom: 2em;
+	margin-left: 40em;
+	margin-top: 2em;
 }
 
 
