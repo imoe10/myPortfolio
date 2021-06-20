@@ -756,6 +756,11 @@ time {
 	height: 3em;
 	margin-left: 5.5em;
 }
+
+.timeline ul li {
+  font-size: 12px;
+}
+
 	
 /** Footer Section **/
 .footer{
