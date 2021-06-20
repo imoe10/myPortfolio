@@ -658,7 +658,8 @@ time {
 }
 
 @media (max-device-width: 480px){
-	body{font-size: 10px;
+	body{
+	max-width: 100%;	
 	overflow-x: hidden;
 	}
 
