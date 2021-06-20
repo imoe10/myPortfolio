@@ -658,10 +658,9 @@ time {
 }
 
 @media (max-device-width: 480px){
-	body{
+	html, body{
 	font-size:10px;	
 	overflow-x: hidden;
-		overflow-y: hidden;
 	}
 
 	.main{
@@ -756,13 +755,6 @@ time {
 	font-size: 1.8em;
 	height: 3em;
 	margin-left: 5.5em;
-}
-
-.timeline ul h2 {
-  font-size: 2em;
-  color: white;
-  text-align: center;
-  padding-bottom: 20px;
 }
 	
 /** Footer Section **/
