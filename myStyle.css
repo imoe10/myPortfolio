@@ -666,6 +666,9 @@ time {
 	.nav .logo{
 	font-size: 26px;
 }
+	.nav ol a{
+	font-size: 24px;
+}
 
 	.main{
 		height: 450px;
