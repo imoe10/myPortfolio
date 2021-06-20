@@ -711,11 +711,12 @@ time {
 
 .first-box p{
 	font-size: 1.8em;
+	margin-left: 5em;
 }
 
 .second-box{
 	width: 50%;
-	height: 25vh;
+	height: 20vh;
 }
 
 .second-box h1{
@@ -729,7 +730,7 @@ time {
 .myfirstbtn{
 	font-size: 1.8em;
 	height: 3em;
-	margin-left: 4em;
+	margin-left: 5em;
 	
 
 }
