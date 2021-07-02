@@ -944,5 +944,9 @@ time {
 	height: 40vh;
 }
 	
+.card-title {
+	font-size:16px;
+	}
+	
 
 }
