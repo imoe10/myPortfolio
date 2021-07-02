@@ -966,20 +966,15 @@ time {
 }
 
 .mycontact-box h1{
-	font-size: 8.5em;
-	display: flex;
-	margin-left: 1.5em;
+	font-size: 8em;
+	margin-left: 1.1em;
 	
 }
 
 .mycontact-box p{
-	font-size: 1em;
-	display: block;
-	color: var(--main-font-color);
-	margin-top: 1em;
-	margin-left: 10em;
-	width: 600px;
-	text-align: justify;
+	font-size: 3em;
+	margin-left: 11.5em;
+	
 }
 
 
