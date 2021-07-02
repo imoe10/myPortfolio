@@ -958,18 +958,11 @@ time {
 .card_title {
   color: #fff;
   font-size: 3rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
 }
 
 .card_text {
-  color: #fff;
+  color: #000;
   font-size: 1.1rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;    
-  font-weight: 400;
 }
 	
 
