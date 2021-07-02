@@ -954,7 +954,11 @@ time {
   width: 50%;
 }
 
-
+.card_content {
+  padding: 3rem;
+  background: #000;
+}
+	
 .card_title {
   color: #fff;
   font-size: 3rem;
