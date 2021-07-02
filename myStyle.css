@@ -949,7 +949,7 @@ time {
 	height: 5vh;
 	}
 
-	.cards {
+.cards {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -958,8 +958,7 @@ time {
 }
 
 .cards_item {
-  display: flex;
-  padding: 1rem;
+  width: 50%;
 }
 
 .card {
