@@ -947,26 +947,7 @@ time {
 .comingsoon {
 	width:100%;
 	height: 5vh;
+	overflow-y:hidden;
 	}
-
-
-.cards_item {
-  width: 50%;
-}
-	
-.card_content {
-  padding: 10rem;
-  background: #fff;
-}
-	
-.card_title {
-  color: #fff;
-  font-size: 3rem;
-}
-
-.card_text {
-  color: #000;
-  font-size: 1.1rem;
-}
 
 }
