@@ -828,12 +828,12 @@ time {
 	/** Conatct Section **/
 	.contact{
 		width: 100%;
-		height: 40vh;
+		height: 35vh;
 	}
 
 	.first-box{
 		width: 50%;
-		height: 40vh;	
+		height: 35vh;	
 	}
 	.first-box h1{
 		font-size: 1.8em;
@@ -846,7 +846,7 @@ time {
 	}
 	.second-box{
 		width: 50%;
-		height: 40vh;
+		height: 35vh;
 	}
 	.second-box h1{
 		font-size: 1.8em;
@@ -859,12 +859,12 @@ time {
 	.myfirstbtn{
 		font-size: 1.3em;
 		height: 2em;
-		margin-left: 5em;
+		margin-left: 4.8em;
 	}
 	.mysecondbtn{
 		font-size: 1.3em;
 		height: 2em;
-		margin-left: 5em;
+		margin-left: 4.8em;
 	}
 }
 
