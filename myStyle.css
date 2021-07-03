@@ -802,7 +802,7 @@ time {
 	}	
 	
 	.about {
-		height: 60vh;
+		height: 90vh;
 	}
 	.about-box h1{
 	font-size: 4em;
@@ -813,7 +813,7 @@ time {
 .about-box p{
 	font-size: 1.5em;
 	margin-top: 1em;
-	margin-left: 4.7em;
+	margin-left: 4.5em;
 	width: 800px;
 	text-align: justify;
 }
