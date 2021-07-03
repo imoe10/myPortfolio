@@ -7,7 +7,7 @@
 	margin: 0;
 	padding: 0;
 	box-shadow: border-box;
-	box-sizing: border-box;
+	box-sizing: border-box; 
 }
 
 :root{
@@ -842,6 +842,7 @@ time {
 	.first-box p{
 		font-size: 1.1em;
 		margin-left: 5.6em;
+		margin-top: 1em;
 	}
 	.second-box{
 		width: 50%;
@@ -853,15 +854,16 @@ time {
 	.second-box p{
 		font-size: 1.1em;
 		margin-left: 5.6em;
+		margin-top: 1em;
 	}
 	.myfirstbtn{
-		font-size: 1.8em;
-		height: 3em;
+		font-size: 1.3em;
+		height: 2em;
 		margin-left: 5.5em;
 	}
 	.mysecondbtn{
-		font-size: 1.8em;
-		height: 3em;
+		font-size: 1.3em;
+		height: 2em;
 		margin-left: 5.5em;
 	}
 }
