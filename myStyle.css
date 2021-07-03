@@ -797,7 +797,7 @@ time {
   /* For landscape layouts only */
 	.main img{width: 35em; top: 80px;}
 	.main {align-items: flex-end;}
-	.box p{font-size: 1.5em;}
+	.box p{font-size: 1.3em;}
 	.about {height: 100vh;}
 	.about-box h1{
 		font-size: 3.5em;
@@ -807,7 +807,7 @@ time {
 	.about-box p{
 		font-size: 1.3em;
 		margin-top: 1em;
-		margin-left: 5.3em;
+		margin-left: 5.5em;
 		width: 800px;
 		text-align: justify;
 	}
@@ -815,7 +815,17 @@ time {
 		display: none;
 	}
 	
-	
+	.work{
+		width: 100%;
+		height: 10vh;
+	}
+	.work-box img{
+		width: 60px;
+		height: 60px;
+		float: left;
+		margin-left: 6em;
+		margin-top: 0.5em;
+	}
 	
 }
 
