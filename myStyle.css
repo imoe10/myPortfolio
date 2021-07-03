@@ -795,6 +795,7 @@ time {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   /* For landscape layouts only */
+	.main{height:100vh;}
 	.main img{width: 35em; top: 80px;}
 	.main {align-items: flex-end;}
 	.box p{
@@ -802,7 +803,7 @@ time {
 	}	
 	
 	.about {
-		height: 90vh;
+		height: 100vh;
 	}
 	.about-box h1{
 	font-size: 4em;
@@ -813,7 +814,7 @@ time {
 .about-box p{
 	font-size: 1.5em;
 	margin-top: 1em;
-	margin-left: 4.5em;
+	margin-left: 4.4em;
 	width: 800px;
 	text-align: justify;
 }
