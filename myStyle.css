@@ -800,6 +800,10 @@ time {
 	.box p{
 	font-size: 1.8em;
 	}	
+	
+	.about {
+		height: 60vh;
+	}
 	.about-box h1{
 	font-size: 4em;
 	margin-top: 1.2em;
@@ -809,7 +813,7 @@ time {
 .about-box p{
 	font-size: 1.5em;
 	margin-top: 1em;
-	margin-left: 5em;
+	margin-left: 4.7em;
 	width: 800px;
 	text-align: justify;
 }
