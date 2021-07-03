@@ -872,6 +872,9 @@ time {
 		height: 4vh;
 	}
 	
+	.footer-box p{
+		margin-top: 0.3em;
+	
 	.footer-box img{
 		width: 20px;
 		height: 20px;
