@@ -793,6 +793,15 @@ time {
 	.main {align-items: flex-end;}
 }
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+	.box p{
+	font-size: 7em;
+}
+
+	
+}
+
 @media (max-width:  900px){
 	.main img{width: 30em;}
 }
