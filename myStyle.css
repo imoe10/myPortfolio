@@ -798,10 +798,10 @@ time {
 	.main img{width: 35em; top: 80px;}
 	.main {align-items: flex-end;}
 	.box p{font-size: 1.8em;}
-	.about {height: 100vh;}
+	.about {height: 80vh;}
 	.about-box h1{
 		font-size: 4em;
-		margin-top: 1.7em;
+		margin-top: 1em;
 		margin-left: 1.6em;
 	}
 	.about-box p{
