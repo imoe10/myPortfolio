@@ -795,35 +795,26 @@ time {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   /* For landscape layouts only */
-	.main{height:100vh;}
 	.main img{width: 35em; top: 80px;}
 	.main {align-items: flex-end;}
-	.box p{
-	font-size: 1.8em;
-	}	
-	
-	.about {
-		height: 100vh;
-	}
+	.box p{font-size: 1.8em;}
+	.about {height: 100vh;}
 	.about-box h1{
-	font-size: 4em;
-	margin-top: 1.2em;
-	margin-left: 1.6em;
+		font-size: 4em;
+		margin-top: 1.2em;
+		margin-left: 1.6em;
+	}
+	.about-box p{
+		font-size: 1.5em;
+		margin-top: 1em;
+		margin-left: 4.4em;
+		width: 800px;
+		text-align: justify;
+	}
+	.about img{
+		display: none;
+	}
 }
-
-.about-box p{
-	font-size: 1.5em;
-	margin-top: 1em;
-	margin-left: 4.4em;
-	width: 800px;
-	text-align: justify;
-}
-
-.about img{
-	display: none;
-}
-}
-
 
 @media (max-width:  900px){
 	.main img{width: 30em;}
