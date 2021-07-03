@@ -801,15 +801,15 @@ time {
 	font-size: 1.8em;
 	}	
 	.about-box h1{
-	font-size: 5em;
+	font-size: 4em;
 	margin-top: 1em;
-	margin-left: 1.8em;
+	margin-left: 1.2em;
 }
 
 .about-box p{
-	font-size: 1.8em;
+	font-size: 1.5em;
 	margin-top: 1em;
-	margin-left: 6em;
+	margin-left: 3em;
 	width: 800px;
 	text-align: justify;
 }
