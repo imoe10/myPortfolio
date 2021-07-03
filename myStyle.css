@@ -866,6 +866,19 @@ time {
 		height: 2em;
 		margin-left: 4.8em;
 	}
+	/** Footer Section **/
+	.footer{
+		width: 100%;
+		height: 4vh;
+	}
+	
+	.footer-box img{
+		width: 25px;
+		height: 25px;
+		margin-left: 35em;
+		margin-top: 1em;
+	}
+	
 }
 
 @media (max-width:  900px){
