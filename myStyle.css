@@ -165,13 +165,13 @@ body{
 }
 
 .box .btn{
-	font-size: 1.2em;
+	font-size: 1.1em;
 	background: none;
 	color: var(--sec-font-color);
 	border: none;
 	cursor: pointer;
 	border: 1px solid var(--main-color);
-	border-radius: 15px;
+	border-radius: 10px;
 	width: 10em;
 	height: 2.2em;
 	transition: all .4s;
@@ -181,6 +181,22 @@ body{
 	background: linear-gradient(135deg, #e400cb 0%, #C850C0 46%, #FFCC70 100%);
 	border: none;
 	color: var(--main-font-color);
+}
+
+.shrink-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.shrink-on-hover:hover, .shrink-on-hover:focus, .shrink-on-hover:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 .main img{
@@ -482,13 +498,13 @@ mark {
 }
 
 .myfirstbtn{
-	font-size: 1.2em;
+	font-size: 1.1em;
 	background: none;
 	color: var(--sec-font-color);
 	border: none;
 	cursor: pointer;
 	border: 1px solid var(--main-color);
-	border-radius: 15px;
+	border-radius: 10px;
 	width: 10em;
 	height: 2.2em;
 	transition: all .4s;
@@ -502,13 +518,13 @@ mark {
 }
 
 .mysecondbtn{
-	font-size: 1.2em;
+	font-size: 1.1em;
 	background: none;
 	color: #000;
 	border: none;
 	cursor: pointer;
 	border: 1px solid #000;
-	border-radius: 15px;
+	border-radius: 10px;
 	width: 10em;
 	height: 2.2em;
 	transition: all .4s;
@@ -756,12 +772,12 @@ time {
 }
 
 .mycontact-box button {
-		font-size: 1.2em;
+	font-size: 1.1em;
 	background: none;
 	color: #fff;
 	cursor: pointer;
 	border: 1px solid #fff;
-	border-radius: 15px;
+	border-radius: 10px;
 	width: 23.6em;
 	height: 2.2em;
 	transition: all .4s;
