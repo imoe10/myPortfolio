@@ -142,15 +142,15 @@ body{
 }
 
 #flip div div {
-  background: #FFCC70;
+  background: #C850C0;
   color: #000;
   font-size: 40px;
 }
 #flip div:first-child div {
-  background:#FFCC70;
+  background:#C850C0;
 }
 #flip div:last-child div {
-  background: #FFCC70;
+  background: #C850C0;
 }
 
 @keyframes show {
