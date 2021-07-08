@@ -1063,6 +1063,21 @@ time {
 	height: 50vh;	
 		
 }
+	
+	.about-box {
+	background-color: #1b1b1b;
+	border: 1px solid #1b1b1b;
+	padding-left: 2em;
+	padding-top: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	border-radius: 4px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 
 	.about-box h1{
 	font-size: 5em;
