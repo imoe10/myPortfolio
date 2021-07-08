@@ -1036,6 +1036,9 @@ time {
 	font-size: 1.8em;
 }
 
+.box img{
+	margin-top:30em;
+	}
 .box .btn{
 	font-size: 1.8em;
 	height: 3em;
