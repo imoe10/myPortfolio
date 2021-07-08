@@ -1098,6 +1098,10 @@ time {
 	width: 100%;
 	height: 10vh;
 }
+
+.work img{
+	margin-left: 7em;
+	}
 	
 /** Conatct Section **/
 .contact{
