@@ -1067,10 +1067,10 @@ time {
 	.about-box {
 	background-color: #1b1b1b;
 	border: 1px solid #1b1b1b;
-	padding-left: 2em;
-	padding-top: 2em;
-	padding-right: 2em;
-	padding-bottom: 2em;
+	padding-left: 4em;
+	padding-top: 4em;
+	padding-right: 4em;
+	padding-bottom: 4em;
 	border-radius: 4px;
 	position: absolute;
 	top: 50%;
@@ -1085,7 +1085,7 @@ time {
 }
 
 .about-box p{
-	font-size: 1.4em;
+	font-size: 2em;
 	margin-top: 1em;
 	width: 600px;
 	text-align: justify;
