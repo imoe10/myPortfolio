@@ -228,10 +228,23 @@ mark {
 	
 }
 
+.about-box {
+	background-color: #1b1b1b;
+	border: 1px solid #1b1b1b;
+	padding-left: 3em;
+	padding-top: 3em;
+	padding-right: 3em;
+	padding-bottom: 3em;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .about-box h1{
 	font-size: 3.5em;
 	margin-top: 0.5em;
-	margin-left: 11em;
 	color: var(--main-font-color);
 }
 
@@ -239,12 +252,11 @@ mark {
 	font-size: 1.1em;
 	color: var(--main-font-color);
 	margin-top: 1em;
-	margin-left: 10em;
 	width: 600px;
 	text-align: justify;
-	float: right;
 }
 
+/*
 .about img{
 	float: left;
 	width: 280px;
@@ -253,6 +265,7 @@ mark {
 	margin-top: -6em;
 	
 }
+*/
 
 .mydiv {
   width: 40px;
