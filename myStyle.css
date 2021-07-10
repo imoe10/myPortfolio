@@ -1107,8 +1107,7 @@ time {
 	
 /** Conatct Section **/
 .contact{
-	width: 100%;
-	height: 20vh;
+	display:none;
 }
 
 .first-box{
