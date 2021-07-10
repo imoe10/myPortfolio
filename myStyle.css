@@ -1043,6 +1043,7 @@ time {
 
 	.main{
 		height:100;
+		display:none;
 	}
 	
 	.box h1{
