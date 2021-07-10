@@ -1035,13 +1035,14 @@ time {
 	
 	.nav .logo{
 	font-size: 26px;
+		
 }
 	.nav ol a{
 	font-size: 18px;
 }
 
 	.main{
-		height: 50vh;
+		display:none;
 	}
 	
 	
