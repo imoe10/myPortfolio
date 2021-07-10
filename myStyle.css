@@ -1047,7 +1047,12 @@ time {
 	}
 	
 	.box h1{
-		content: "Mobile version is not available yet!";
+		display:none;
+	}
+	
+	.box h1:after {
+		display:block;
+		content: " Hi This is new text!";
 	}
 	
 	.about{
