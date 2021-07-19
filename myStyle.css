@@ -698,6 +698,14 @@ time {
 	transform: rotate(270deg);
 }
 
+.uidesign-box p{
+	font-size: 14px;
+	color: var(--main-font-color);
+	text-align: center;
+	margin-top: 8px;
+	opacity: 60%;
+}
+
 .uidesign-box img {
 	border: 1px solid #000;
 	border-radius: 10px;
