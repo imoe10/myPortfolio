@@ -33,7 +33,7 @@ body{
 	align-items: center;
 }
 
-/* NAVBAR */
+/* navbar */
 .nav{
 	width: 85%;
 	height: 70px;
@@ -68,7 +68,7 @@ body{
 	color: #1a1c20;
 }
 
-/* MAIN SECTION */
+/* main section */
 .main{
 
 	width: 85%;
@@ -210,24 +210,24 @@ mark {
 	background-color: #C850C0 ;
 }
 
-/* SECTION */
-.sec{
+/* about section */
+.about{
 	/*
 	background-image: url('https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
 	*/
-	background: var(--bg);
+	background: #000;
 	width: 100%;
 	height: 100vh;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	position: relative;
+	
 }
 
-/* ABOUT SECTION */
 .about-box {
 	background-color: #1b1b1b;
 	border: 1px solid #1b1b1b;
@@ -263,7 +263,9 @@ mark {
 	height:280px;
 	margin-left: 10em;
 	margin-top: -6em;
+	
 }
+*/
 
 .mydiv {
   width: 40px;
@@ -278,9 +280,8 @@ mark {
     0 0 100px 60px #fff, /* middle magenta */
     0 0 140px 90px #fff; /* outer cyan */
 }
-*/
 
-/* skill section 
+/* skill section */
 .skills{
 	width: 100%;
 	height: 100vh;
@@ -381,12 +382,17 @@ mark {
     mask-position: 0 0;
   }
 }
-*/
 
-/* WORK SECTION */
+
+/* work section */
 .work{
 	width: 100%;
 	height: 30vh;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	position: relative;
+	background: #000;
 }
 
 .work-box img{
@@ -397,16 +403,19 @@ mark {
 	margin-top: 0.5em;
 }
 
-.wrapper{
+.wrapper
+{
 	padding-bottom: 1px;
 }
 
-.divider{
+.divider
+{
 	position: relative;
 	height: 1px;
 }
 
-.div-transparent:before{
+.div-transparent:before
+{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -417,7 +426,8 @@ mark {
 	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
 }
 
-.div-dot:after{
+.div-dot:after
+{
 	content: "";
 	position: absolute;
 	z-index: 1;
@@ -432,10 +442,14 @@ mark {
 					0 0 0 4px white;
 }
 
-/* CONTACT SECTION */
 .contact{
 	width: 100%;
 	height: 50vh;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	position: relative;
+	background: var(--bg);
 }
 
 .first-box{
@@ -445,6 +459,7 @@ mark {
 	background-color: #e400cb;
 	background-image: linear-gradient(135deg, #e400cb 0%, #C850C0 46%, #FFCC70 100%);
 	float: right;
+	
 }
 
 .first-box h1{
@@ -547,7 +562,7 @@ mark {
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .timeline ul {
-  background: var(--bg);
+  background: #000;
   padding: 50px 0;
 }
 
@@ -616,11 +631,15 @@ time {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
-}
-
+}	
 .footer{
 	width: 100%;
 	height: 7vh;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	position: relative;
+	background: #000;
 }
 
 .footer-box p{
@@ -637,7 +656,7 @@ time {
 	cursor: pointer;
 }
 
-/* PROJECTS PAGE */
+/* Projects Page */
 .projects {
 	width: 100%;
 	height: 90vh;
@@ -707,7 +726,7 @@ time {
           justify-content: center;
 }
 
-/* CONTACT ME PAGE */
+/* Contact Page */
 .contactMeBg {
 	background-image: url('mybg.jpg');
 	background-repeat: no-repeat;
@@ -824,7 +843,7 @@ time {
 	color: var(--main-font-color);
 }
 
-.mycontact-box img{
+.mycontact-box img {
 	width: 30px;
 	height: 30px;
 	margin: auto;
@@ -883,7 +902,7 @@ time {
   font-weight: 300;
 }
 
-/** CSS For Different Devices **/
+/** CSS For Different Platforms **/
 
 @media (max-width: 1250px){
 	.main img{ width: 25em; right: 0; }
