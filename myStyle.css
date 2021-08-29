@@ -728,7 +728,7 @@ time {
 
 /* Contact Page */
 .contactMeBg {
-	background-image: url('mybg.jpg');
+	background-image: url('./public/mybg.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
